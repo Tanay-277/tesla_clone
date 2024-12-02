@@ -22,7 +22,7 @@ const createInitialState = (modelName) => {
 	const selectedModel = pricingData.models.find(
 		(mod) => mod.name === decodeModelName(model)
 	);
-	console.log("Selected Model", selectedModel);
+	// console.log("Selected Model", selectedModel);
 
 	return {
 		model,
@@ -100,6 +100,7 @@ export const pricingSlice = createSlice({
 			state.finalPrice = recalculateFinalPrice(state);
 		},
 		setTrim: (state, action) => {
+
 			state.trim.selectedTrim.name = action.payload.name;
 			state.trim.selectedTrim.pricing =
 				action.payload.pricing[state.trim.paymentType.toLowerCase()];

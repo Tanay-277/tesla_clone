@@ -16,7 +16,7 @@ const Customization = ({ modelName }) => {
     // console.log("Available Options", availableOptions);
 
     const { interior, exterior, rims } = useSelector((state) => state.pricing);
-    // console.log("Interior", interior);
+    console.log("Interior", interior);
     // console.log("Exterior", exterior);
     // console.log("Rims", rims);
 
