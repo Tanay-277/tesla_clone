@@ -6,7 +6,6 @@ import { TopBar, Navbar, Pricing, Customization, ConfigSummary } from "../../com
 import { setExterior, setInterior, setModel } from "../../features/configurator/pricingSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { ChevronLeftIcon } from "@heroicons/react/24/outline";
-import { setImg } from "../../features/configurator/imgSlice";
 
 const Configurator = () => {
   const { modelName } = useParams();
