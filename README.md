@@ -30,4 +30,9 @@ An *ongoing* React-based web application that allows users to customize a Tesla 
 
 ## Images
 
+[![Screenshot-1](https://raw.githubusercontent.com/Tanay-277/tesla_clone/refs/heads/main/images/tesla_1.png "Screenshot-1")](https://raw.githubusercontent.com/Tanay-277/tesla_clone/refs/heads/main/images/tesla_1.png "Screenshot-1")
+
+Screenshots
+
+[![Screenshot-2](https://raw.githubusercontent.com/Tanay-277/tesla_clone/refs/heads/main/images/tesla_2.png "Screenshot-2")](https://raw.githubusercontent.com/Tanay-277/tesla_clone/refs/heads/main/images/tesla_2.png "Screenshot-2")
 
